@@ -1,4 +1,4 @@
-# Graph Report - airflow_reports  (2026-09-07)
+# Graph Report - airflow_reports  (2026-09-14)
 
 ## Corpus Check
 - Corpus is ~15,576 words - fits in a single context window. You may not need a graph.
