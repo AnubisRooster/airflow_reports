@@ -1,15 +1,14 @@
-# Graph Report - airflow_reports  (2026-09-28)
+# Graph Report - airflow_reports  (2026-10-05)
 
 ## Corpus Check
 - Corpus is ~18,262 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 41 nodes · 64 edges · 6 communities
+- 41 nodes · 64 edges · 6 communities (0 shown, 6 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- graphify_pipeline.py
 - fixVersionConfluence.py
 - fixVersionConfluence2wk.py
 - fixVersionConfluence30days.py
@@ -34,31 +33,10 @@
 ## Import Cycles
 - None detected.
 
-## Communities (6 total, 0 thin omitted)
+## Communities (6 total, 6 thin omitted)
 
-### Community 0 - "graphify_pipeline.py"
-Cohesion: 0.13
-Nodes (13): graphify_analyze, graphify_build, graphify_cluster, graphify_detect, graphify_export, graphify_extract, graphify_llm, graphify_report (+5 more)
-
-### Community 1 - "fixVersionConfluence.py"
-Cohesion: 0.40
-Nodes (5): airflow_decorators, airflow_models, base_function(), fix_version(), dag
-
-### Community 2 - "fixVersionConfluence2wk.py"
-Cohesion: 0.50
-Nodes (4): airflow_operators_python, base_function(), fix_version_2wk(), dag
-
-### Community 3 - "fixVersionConfluence30days.py"
-Cohesion: 0.50
-Nodes (4): airflow_providers_atlassian_jira_hooks_jira, base_function(), fix_version_30day(), dag
-
-### Community 4 - "fixVersionConfluence1wk.py"
-Cohesion: 0.50
-Nodes (4): atlassian, base_function(), fix_version_1wk(), dag
-
-### Community 5 - "fixVersionConfluence90days.py"
-Cohesion: 0.50
-Nodes (4): datetime, base_function(), fix_version_90day(), dag
+## Knowledge Gaps
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
