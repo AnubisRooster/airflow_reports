@@ -1,7 +1,7 @@
-# Graph Report - airflow_reports  (2026-10-19)
+# Graph Report - airflow_reports  (2026-10-26)
 
 ## Corpus Check
-- Corpus is ~16,373 words - fits in a single context window. You may not need a graph.
+- Corpus is ~16,684 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 41 nodes · 64 edges · 6 communities (0 shown, 6 thin omitted)
